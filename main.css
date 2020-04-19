@@ -14,26 +14,16 @@ h1
 	margin: 20px;
 }
 
-.jumpers
+.links
 {
 	text-align: center;
 }
 
-.jumpers img
-{
-	width: 100%;
-	height: auto;
-}
-
-.jumpers p
+.links p
 {
 	margin-bottom: 30px;
 }
 
-.jumpers figcaption
-{
-	margin-top: 8px;
-}
 
 /*
 .navbar-nav li:hover>.dropdown-menu
@@ -47,13 +37,14 @@ h1
 	min-height: 57px;
 }
 
-.bg-jumpers
+.bg-links
 {
 	background-color: #91a33b !important;
 }
 
 .myblock{
 	outline: 1px solid orange;
+	margin: auto;
 }
 
 .links{
@@ -67,4 +58,14 @@ h1
     padding: 0px;
 }
 
+.list-group-item{
+	padding-top: 1px;
+	padding-bottom: 1px;
+
+}
+
+.list-group-item:hover{
+	background-color: #91a33b;
+	color: white;
+}
 
